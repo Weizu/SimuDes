@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Simulateur de D&eacute;s!</title>
+    <meta name="description" content="Petit simulateur de dés avec image et num&eacute;ro.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="css/normalize.css" />
+</head>
+
+<body >
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<header>
+<hgroup>
+<h1>Simulateur de Dés</h1>
+<h2>Parce que les dés, c'est utile pour jouer...</h2>
+</hgroup>
+<a href="../">Accueil</a>
+</header>
+
+<div class="content">
+	<h3>Lanc&eacute;s de D&eacute;s</h3>
+	<p>Cliquez sur le d&eacute; que vous voulez lancer :</p>
+	<ul class="imagesdes clearfix" id="Lancer">
+		<li id="4"><img src="./img/de4/de.jpg" alt="d&eacute; de 4" /></li>
+		<li id="6"><img src="./img/de6/de.jpg" alt="d&eacute; de 6" /></li>
+		<li id="8"><img src="./img/de8/de.jpg" alt="d&eacute; de 8" /></li>
+		<li id="10"><img src="./img/de10/de.jpg" alt="d&eacute; de 10" /></li>
+		<li id="12"><img src="./img/de12/de.jpg" alt="d&eacute; de 12" /></li>
+		<li id="20"><img src="./img/de20/de.jpg" alt="d&eacute; de 20" /></li>
+	</ul>
+	
+	<h3 >R&eacute;sultats</h3>
+	<div id="Resultat">
+	</div><br />
+	<input type="button" value="Effacer" name="effacer" id="efface" class="effacebutton"/>
+</div>
+
+<div class="footer">
+<p>Site cr&eacute;e par <a href="http://weizu.chez.com/">Alexandre Achain</a>.</p>
+</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/comportement.js"></script>
+</body>
+</html> 
