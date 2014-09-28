@@ -1,8 +1,8 @@
 SimuDes est un petit projet que j'ai fait pour m'amuser.
 
-C'est un dé viruel en javascript!
+C'est un dÃ© viruel en javascript!
 
-Une fois installée, il vous suffit de cliquer sur l'un des dés affiché pour voir le r&eacutesultat.
+Une fois installÃ©e, il vous suffit de cliquer sur l'un des dÃ©s affichÃ© pour voir le r&eacutesultat.
 
 # TEAM
 
